@@ -14,7 +14,9 @@ const keyReturn=(event)=>{
     event.target.style.backgroundColor='';
 }
 // Write a named function with event handler properties
-
+const eventAssignment=(note)=>{
+    
+}
 
 // Write a loop that runs the array elements through the function
 

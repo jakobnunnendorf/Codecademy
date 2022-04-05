@@ -8,9 +8,11 @@ keys.forEach(function(key){
 // Write named functions that change the color of the keys below
 
 const keyPlay=(event)=>{
-event.target.style.backgroundColor='gray';
+    event.target.style.backgroundColor='gray';
 }
-
+const keyReturn=(event)=>{
+    event.target.style.backgroundColor='';
+}
 // Write a named function with event handler properties
 
 

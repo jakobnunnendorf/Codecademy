@@ -44,7 +44,9 @@ nextOne.onclick = function(){
     document.getElementById('letter-note-five').innerHTML='D';
     document.getElementById('letter-note-six').innerHTML='C';
 }
-
+nextTwo.onclick = function(){
+    
+}
 // Write anonymous event handler property and function for the second progress button
 
 

@@ -63,7 +63,8 @@ nextTwo.onclick = function(){
 
 // Write anonymous event handler property and function for the third progress button
 nextThree.onclick=function(){
-    
+    startOver.hidden=false;
+    nextThree.hidden=true;
 }
 
 // This is the event handler property and function for the startOver button

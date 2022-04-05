@@ -45,7 +45,8 @@ nextOne.onclick = function(){
     document.getElementById('letter-note-six').innerHTML='C';
 }
 nextTwo.onclick = function(){
-    
+    nextThree.hidden=false;
+    nextTwo.hidden=true;
 }
 // Write anonymous event handler property and function for the second progress button
 
